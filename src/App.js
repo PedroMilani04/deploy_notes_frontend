@@ -39,6 +39,7 @@ function App() {
     const response = await api.get('/annotations')
 
     setAllNotes(response.data)
+    console.log(response.data);
   }
 
   const handleSubmit = async (e) => {

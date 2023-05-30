@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { AiTwotoneDelete, AiOutlineExclamationCircle } from "react-icons/ai";
 import "./style.css";
 import "./style-priority.css"
-import api from "../../services/api";
+import api from "./api";
 
 export default function Notes({ data, handleDelete, handleChangePriority }) {
 

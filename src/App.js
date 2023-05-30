@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import api from './services/api';
+import api from './components/notes/api';
 import './App.css';
 import './global.css';
 import './sidebar.css';
